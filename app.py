@@ -10,7 +10,7 @@ from tensorflow.keras.models import load_model
 # Load Artifacts (V6)
 # -----------------------------------------------------------
 
-MODEL_DIR = "/mnt/data/churn_model_v6"
+MODEL_DIR = "/mnt/data"
 
 preprocessor = joblib.load(f"{MODEL_DIR}/preprocessor.joblib")
 train_columns = joblib.load(f"{MODEL_DIR}/train_columns.joblib")
